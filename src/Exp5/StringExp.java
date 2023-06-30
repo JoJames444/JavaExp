@@ -29,7 +29,17 @@ public class StringExp {
         
         
         
+        String ss3 = ss1+" sivan"; //ss1 is immutable
+        System.out.println("ss1 : "+ss1);
+        System.out.println("ss3 : "+ss3);
         
+        
+        StringBuffer sb1 = new StringBuffer("Shailesh");
+        System.out.println("sb1 : "+sb1);
+        sb1.append(" Sivan");
+        System.out.println("sb1 : "+sb1);
+        sb1.reverse();
+        System.out.println("sb1 : "+sb1);
         
     }
     
