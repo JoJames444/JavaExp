@@ -64,8 +64,8 @@ class CurrentAccount extends BankAccount{
     public CurrentAccount(int account_no, double balance) {
         super(account_no, balance);
     }
-    
-    public void withdraw(double amount){
+
+     public void withdraw(double amount){
         if(balance + 1000 >= amount){
             balance -= amount;
         }
@@ -74,6 +74,8 @@ class CurrentAccount extends BankAccount{
             System.out.println("Insufficient Balance");
         }
     }
+    
+   
     
     
 }
